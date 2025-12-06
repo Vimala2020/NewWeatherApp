@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/newweatherapp:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/new-weather-app:latest
           build-args: |
             VITE_APP_API_KEY=${{ secrets.VITE_APP_API_KEY }}
             VITE_APP_BASE_URL=${{ secrets.VITE_APP_BASE_URL }}
